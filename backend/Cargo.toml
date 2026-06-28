@@ -1,11 +1,11 @@
 [package]
-name = "consensus-searcher-backend"
+name = "faang-consensus-searcher-backend"
 version = "0.1.0"
 edition = "2021"
 description = "Search scientific consensus - Backend API"
 authors = ["JJ-Dynamite"]
 license = "MIT"
-repository = "https://github.com/JJ-Dynamite/consensus-searcher"
+repository = "https://github.com/JJ-Dynamite/faang-consensus-searcher"
 
 [dependencies]
 axum = "0.7"

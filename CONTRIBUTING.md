@@ -1,4 +1,4 @@
-# Contributing to consensus-searcher
+# Contributing to faang-consensus-searcher
 
 Thank you for your interest in contributing!
 

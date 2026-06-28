@@ -9,7 +9,7 @@ services:
       - "3001:3001"
     environment:
       - RUST_LOG=info
-      - DATABASE_URL=postgres://postgres:postgres@db:5432/consensus_searcher
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/faang_consensus_searcher
     depends_on:
       db:
         condition: service_healthy
@@ -32,7 +32,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=consensus_searcher
+      - POSTGRES_DB=faang_consensus_searcher
     ports:
       - "5432:5432"
     volumes:

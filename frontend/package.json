@@ -1,5 +1,5 @@
 {
-  "name": "consensus-searcher-frontend",
+  "name": "faang-consensus-searcher-frontend",
   "version": "0.1.0",
   "private": true,
   "description": "Search scientific consensus - Frontend",
